@@ -1,0 +1,68 @@
+.unduhan{
+    display: flex;
+    justify-content: center;
+}
+
+.unduhan a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5vw;
+    margin: 50px;
+}
+
+.unduhan a:hover{
+    text-decoration: underline;
+}
+
+.unduhan_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unduhan_conten{
+    color: white;
+    display: flex;
+    width: 600px;
+    overflow: auto;
+}
+
+.unduhan_conten::-webkit-scrollbar{
+    display: none;
+}
+
+.sdg_conten, .rwy_conten{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6vw;
+    width: 100%;
+    height: 300px;
+}
+
+.sdg_conten h1, .rwy_conten h1{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px){
+    .unduhan{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .unduhan a{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        width: 200px;
+        font-size: 15px;
+        text-decoration: underline;
+    }
+
+    .unduhan_conten h1{
+        font-size: 15px;
+    }
+}

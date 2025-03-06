@@ -1,0 +1,127 @@
+.kategori{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.rktgr{
+    display: none;
+}
+
+.kategori a{
+    text-decoration: none;
+}
+
+.ktgr, .ktgr_2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.ktgr:hover, .ktgr_2:hover{
+    transform: scale(1.1);
+    box-shadow: 5px -5px 15px rgb(205, 47, 47),
+     -5px 5px 15px rgb(205, 47, 47);
+}
+
+.ktgr_h1_2 h1{
+    width: 100px;
+    margin-right: 100px;
+}
+
+.ktgr_2 img{
+    width: 600px;
+    height: 200px;
+    margin-right: 200px;
+    border-radius: 25px;
+}
+
+.ktgr_h1 h1{
+    width: 10vw;
+    margin-left: 100px;
+}
+
+.ktgr img{
+    border-radius: 25px;
+    width: 600px;
+    height: 200px;
+    margin-left: 200px;
+}
+
+.ktgr_gradasi{
+    position: absolute;
+    top: 0%;
+    width: 600px;
+    height: 200px;
+    margin-left: 200px;
+}
+
+.ktgr_gradasi_2{
+    position: absolute;
+    top: 0%;
+    margin-right: 200px;
+    width: 600px;
+    height: 200px;
+}
+
+@media screen and (max-width: 600px){
+    .kategori{
+        display: none;
+    }
+
+    .rktgr0{
+        display: flex;
+        justify-content: center;
+    }
+
+    .rktgr{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .rktgr1{
+        width: 150px;
+        height: 150px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 20px;
+        margin: 5px;
+    }
+
+    .rktgr1 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .rktgr2{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rktgr_grds{
+        width: 150px;
+        height: 150px;
+    }
+
+    .rktgr2 p{
+        position: absolute;
+        top: 50%;
+        font-size: 20px;
+        text-shadow: 0 0 10px red;
+    }
+}

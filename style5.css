@@ -1,0 +1,175 @@
+.about_1,.about_2{
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.about_1_conten,.about_2_conten{
+    margin: 50px;
+}
+
+.about_1 img,.about_2 img{
+    margin-right: 80px;
+    width: 40vw;
+}
+
+.about_1_conten h1,.about_2_conten h1{
+    font-size: 2vw;
+    margin-bottom: 40px;
+}
+
+.about_1_conten p,.about_2_conten p{
+    margin-top: 20px;
+    width: 85%;
+}
+
+.about_2_conten ul li{
+    margin: 15px;
+}
+
+.about_3{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.about_3 p{
+    margin: 10px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.contact h1{
+    margin-bottom: 10px;
+}
+
+.contact a{
+    color: rgb(205,47,47);
+    text-decoration: none;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctc_ipt input{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 10px 200px 10px 10px;
+    border-radius: 5px;
+    background-color: black;
+    border: transparent;
+    color: white;
+    outline: none;
+}
+
+.psn_ipt input{
+    margin: 50px;
+    padding: 10px 200px 200px 10px;
+    border-radius: 5px;
+    background-color: black;
+    outline: none;
+    border: transparent;
+    color: white;
+}
+
+.ipt_btn{
+    display: flex;
+    justify-content: center;
+}
+
+.ipt_btn input{
+    background: linear-gradient(90deg,rgb(245, 38, 60) 0px, rgb(106, 18, 159) 100%);
+    padding: 5px 40px;
+    border-radius: 20px;
+    border: 0;
+    color: white;
+}
+
+@media screen and (max-width: 600px){
+    .about_1 img{
+        margin-right: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about_1{
+        flex-direction: column;
+    }
+
+    .about_1_conten{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about_1_conten h1{
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    .about_1_conten h3{
+        font-size: 15px;
+    }
+
+    .about_1_conten p{
+        display: block;
+        font-size: 15px;
+    }
+
+    .about_2 img{
+        display: none;
+    }
+
+    .about_2_conten p{
+        width: 100%;
+    }
+
+    .about_2_conten h1{
+        font-size: 20px;
+    }
+
+    .about_2{
+        text-align: justify;
+    }
+
+    .about_3{
+        text-align: justify;
+    }
+
+    .contact h1{
+        font-size: 25px;
+    }
+
+    .contact p{
+        font-size: 15px;
+    }
+
+    .input{
+        flex-direction: column;
+    }
+
+    .psn_ipt input{
+        margin-top: 10px;
+        padding-bottom: 100px;
+    }
+
+    .ipt_btn{
+        margin-bottom: 80px;
+    }
+}

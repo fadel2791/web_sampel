@@ -1,0 +1,329 @@
+.games_top{
+    width: 95%;
+    height: 450px;
+    margin-top: 3vw;
+    margin-left: 2.2vw;
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.games_top::-webkit-scrollbar{
+    display: none;
+}
+
+.img_rsl{
+    position: relative;
+}
+
+.games_dwd img{
+    width: 100%;
+    height: 252px;
+    border-radius: 10px;
+}
+
+.games_dwd{
+    width: 450px;
+    height: 350px;
+    margin: 10px;
+}
+
+.games_dwd a{
+    text-decoration: none;
+    color: white;
+}
+
+.games_dwd h1{
+    color: white;
+    font-size: 1.6vw;
+    padding-left: 25px;
+    background-color: #000000;
+}
+
+.gms_info{
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 450px;
+    justify-content: space-between;
+    background-color: #000000;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.games_conten{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.games_conten h2{
+    font-size: 1.4vw;
+    margin-left: 10px;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.games_conten img{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.dwd_btn{
+    margin-right: 25px;
+}
+
+.dwd_btn a{
+    font-size: 1vw;
+    padding: 1vw 2vw;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgb(106, 18, 159) 0px,rgb(245, 38, 60) 100%);
+}
+
+.gradasi{
+    position: absolute;
+    top: 0%;
+    width: 450px;
+    height: 257px;
+}
+
+.games_1{
+    width: 95%;
+    margin-left: 2.2vw;
+    display: flex;
+    overflow: auto;
+}
+
+.games_1::-webkit-scrollbar{
+    display: none;
+}
+
+.game_advanture{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+    background-color: black;
+    transition: 0.4s;
+}
+
+.game_advanture:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background-color: rgb(199, 27, 27);
+}
+
+.game_advanture a{
+    text-decoration: none;
+}
+
+.game_advanture video,.game_advanture img{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.advntr img{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.advntr{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.advntr_info{
+    color: white;
+    margin-left: 20px;
+}
+
+.advntr_info h1{
+    font-size: 1.5vw;
+    margin-bottom: 5px;
+}
+
+.games_2{
+    display: flex; 
+    margin: 2.2vw;
+    width: 95%;
+    overflow: auto;
+}
+
+.games_2::-webkit-scrollbar{
+    display: none;
+}
+
+.game_conten img{
+    width: 180px;
+    height: 180px;
+    border-radius: 25px;
+}
+
+.game_conten{
+    color: white;
+    margin-left: 20px;
+    transition: 0.5s;
+    border-radius: 25px 25px 10px 10px;
+}
+
+.game_conten:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background-color: rgb(199, 27, 27);
+}
+
+.game_conten a{
+    color: white;
+    text-decoration: none;
+}
+
+.game_conten h2{
+    font-size: 1.2vw;
+    margin: 5px 10px;
+}
+
+.game_conten p{
+    margin-left: 10px;
+}
+
+.conten{
+    display: flex;
+    width: 95%;
+    margin-left: 25px;
+    overflow: auto;
+}
+
+.conten::-webkit-scrollbar{
+    display: none;
+}
+
+.conten_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: #000000;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.conten_1 h1{
+    white-space: nowrap;
+    font-size: 2vw;
+    margin: 20px;
+}
+
+.conten_1 h2{
+    font-size: 1.5vw;
+    margin-left: 20px;
+}
+
+.conten_1 img{
+    width: 600px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.conten_img{
+    position: relative;
+}
+
+.conten_img_gradasi{
+    position: absolute;
+    top: 0%;
+    width: 600px;
+    height: 300px;
+}
+
+@media screen and (max-width: 600px){
+    .games_dwd{
+        width: 400px;
+        height: 300px;
+        margin-right: 20px;
+    }
+
+    .games_dwd img{
+        width: 400px;
+        height: 200px;
+    }
+
+    .games_dwd h1{
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .gradasi{
+        width: 100%;
+        height: 205px;
+    }
+
+    .gms_info{
+        width: 100%;
+        height: 70px;
+    }
+
+    .games_conten img{
+        width: 70px;
+        height: 50px;
+    }
+
+    .games_conten h2{
+        font-size: 10px;
+    }
+
+    .games_conten{
+        width: 200px;
+        margin-left: 10px;
+    }
+
+    .games_top{
+        width: 100%;
+        height: auto;
+    }
+
+    .dwd_btn a{
+        font-size: 8px;
+    }
+
+    .ttl_adv h2{
+        margin-left: 0px;
+        margin-top: 50px;
+        font-size: 25px;
+    }
+
+    .advntr_info h1{
+        font-size: 17px;
+    }
+
+    .game_conten{
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    .game_conten img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .game_conten h2{
+        font-size: 17px;
+    }
+
+    .conten{
+        display: none;
+    }
+
+    .games_top{
+        margin-left: 0;
+    }
+}
